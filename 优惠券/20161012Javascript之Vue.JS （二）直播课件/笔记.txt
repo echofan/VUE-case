@@ -1,0 +1,201 @@
+vue����weibo
+	����
+
+vue->  1.0
+	vue-resource	ajax	php
+	����������(node)
+
+	this.$http.get()/post()/jsonp()
+
+	this.$http({
+		url:��ַ
+		data:����̨�ύ����,
+		method:'get'/post/jsonp
+		jsonp:'cb' //cbName
+	});
+----------------------------------
+vue�¼�:
+	@click=""
+����:
+
+
+����һ�����ԣ�
+
+��ȡĳһҳ����:
+	getPageData(1);
+----------------------------------
+vue��������:
+	���Ӻ���:
+
+	created	->   ʵ���Ѿ�����	��
+	beforeCompile	->   ����֮ǰ
+	compiled	->   ����֮��
+	ready		->   ���뵽�ĵ���	��
+
+	beforeDestroy	->   ����֮ǰ
+	destroyed	->   ����֮�� 
+----------------------------------
+�û��ῴ�������ű���:
+	
+	v-cloak		��ֹ��˸, �Ƚϴ�����
+----------------------------------
+<span>{{msg}}</span>		->   v-text
+{{{msg}}}			->   v-html
+----------------------------------
+ng:  $scope.$watch
+
+�������Ե�ʹ��:
+	computed:{
+		b:function(){	//Ĭ�ϵ���get
+			return ֵ
+		}
+	}
+	--------------------------
+	computed:{
+		b:{
+			get:
+			set:
+		}
+	}
+
+	* computed�������Է���һЩҵ���߼����룬һ���ǵ�return
+---------------------------------
+vueʵ���򵥷���:
+	vm.$el	->  ����Ԫ��
+	vm.$data  ->  ����data
+	vm.$mount ->  �ֶ�����vue����
+	
+	vm.$options	->   ��ȡ�Զ�������
+	vm.$destroy	->   ���ٶ���
+
+	vm.$log();	->  �鿴�������ݵ�״̬
+---------------------------------
+ѭ����
+	v-for="value in data"
+
+	�����ظ����ݣ�
+	track-by='����'	����ѭ������
+
+	track-by='$index/uid'
+---------------------------------
+������:
+	vue�ṩ������:
+		capitalize	uppercase	currency....
+
+		debounce	�����¼����ӳ�ִ��
+	��������ʹ�ù�����:
+		limitBy	���Ƽ���
+		limitBy ����(ȡ����)
+		limitBy ȡ����  ���Ŀ�ʼ
+
+		filterBy	��������
+		filterBy ��˭��
+
+		orderBy	����
+		orderBy ˭ 1/-1
+			1  -> ����
+			2  -> ����
+
+	�Զ���������:  model ->���� -> view
+		Vue.filter(name,function(input){
+			
+		});
+
+	ʱ��ת����
+	����html����
+
+	˫��������:*
+	Vue.filter('filterHtml',{
+	            read:function(input){ //model-view
+	                return input.replace(/<[^<+]>/g,'');
+	            },
+	            write:function(val){ //view -> model
+	                return val;
+	            }
+	});
+
+	���� -> ��ͼ
+	model -> view
+
+	view -> model
+---------------------------------
+v-text
+v-for
+v-html
+	ָ��: ��չhtml�﷨
+
+�Զ���ָ��:
+	����:
+
+	Vue.directive(ָ������,function(����){
+		this.el	-> ԭ��DOMԪ��
+	});
+
+	<div v-red="����"></div>
+
+	ָ������: 	v-red  ->  red
+
+	* ע��: ������ v-��ͷ
+
+	��ק:
+	-------------------------------
+�Զ���Ԫ��ָ��:���ô�������
+	Vue.elementDirective('zns-red',{
+	    bind:function(){
+	        this.el.style.background='red';
+	    }
+	});
+------------------------------------------------
+@keydown.up
+@keydown.enter
+
+@keydown.a/b/c....
+
+�Զ���������Ϣ:
+	Vue.directive('on').keyCodes.ctrl=17;
+	Vue.directive('on').keyCodes.myenter=13;
+------------------------------------------------
+�������ݱ仯:
+	vm.$el/$mount/$options/....
+
+	vm.$watch(name,fnCb);  //ǳ��
+	vm.$watch(name,fnCb,{deep:true});  //���ȼ��� 
+------------------------------------------------
+vue����:
+����������ͨ��
+slot
+vue-loader	webpack   .vue
+vue-router
+
+
+
+
+
+				
+	
+	
+		
+		
+	
+	
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
