@@ -1,0 +1,247 @@
+li{
+    list-style:none;
+}
+.container{
+     width: 100%;
+     position:relative;
+}
+
+.header{
+    width: 100%;
+    height: 200px;
+}
+.header img{
+     width: 100%;
+     height: auto;
+     background-size: cover;
+
+}
+.invite_title{
+     width: 90%;
+     /*background-color: pink;*/
+     margin:0 auto;
+     height: 120px;
+     margin-top:20px;
+}
+.invite_title .box{
+    background:url(../../img/con_img_yqm@2x.png) no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.invite_title .yaoqing{
+     height: 40px;
+     line-height: 40px;
+     text-align:center;
+     font-size:21px;
+     color:#fff;  
+     font-weight:500;
+}
+.invite_title div:nth-child(2){
+     height: 80px;
+     text-align: center;
+    
+}
+.invite_title div:nth-child(2) span{
+     display:block;
+}
+.invite_title div:nth-child(2) span:nth-child(1){height:45px;font-size:21px;font-weight:500;line-height:45px;}
+.invite_title div:nth-child(2) span:nth-child(2){height: 40px;line-height:13px;color:#999999;font-size:15px;}
+
+.recharge{
+      width: 94%;
+      margin:0 auto;
+      display:flex;
+      line-height:100px;
+      margin-top:20px;
+}
+.left{
+  /*float:left;*/
+    flex-grow: 1;
+
+}
+.left_nav{
+        height: 70px;
+    width: 70px;
+    background-color: yellow;
+    border-radius:50%;
+}
+.cent{
+  /*float:left;*/
+  flex-grow: 2;
+}
+.cent div:nth-child(1){
+     font-size:18px;
+     color:#333333;
+     font-weight:500;
+     font-family: "方正黑体";
+}
+.cent div:nth-child(2){
+    font-size:14px;
+    color:#999999;
+}
+.cent div{
+     height: 30px;
+     line-height:35px;
+}
+@media (max-width:330px) {
+    .left_nav{
+    height: 60px;
+    width: 60px;
+    background-color: yellow;
+    border-radius:50%;
+    }
+    .cent div:nth-child(1){
+     font-size:16px;
+     color:#333333;
+     font-weight:500;
+}
+.cent div:nth-child(2){
+    font-size:13px;
+    color:#999999;
+}
+.cent div{
+     height: 30px;
+     line-height:30px;
+}
+
+}
+.right{
+   flex-grow: 1;
+   margin-top:12px;
+}
+.right a{
+    display:block;
+    background-color: #4CB034;
+    text-align:center;
+    height: 25px;
+    line-height: 25px;
+    color:#fff;
+    padding:5px;
+    border-radius:5px;
+    font-size:16px;
+}
+.ftoor{
+    padding-bottom:50px;
+}
+.ftoor ul .box{
+     height: 70px;
+     border-bottom:1px solid #666666;
+}
+.ftoor ul li:last-child{
+     border-bottom:none;
+}
+.ftoor ul .box .left{
+     float:left;
+     height: 70px;
+     margin-left:15px;
+}
+.ftoor ul .box .left .img{
+      float:left;  
+      width: 50px;
+      height: 50px;
+      border-radius:50%;
+      background-color: yellow;
+      margin-top:10px;
+}
+.ftoor ul .box .left .title{
+    float:left;
+    height: 70px;
+    line-height:70px;
+    width: 100px;
+    margin-left:20px;
+    font-size:18px;
+}
+.ftoor ul .box .right_box{
+    float:right;
+    height: 70px;
+    font-size:15px;
+    line-height:70px;
+    margin-right:15px;
+    color:#666666;
+}
+.navs{
+     height: 50px;
+     background-color:#4CB034 ;
+     position:fixed;
+     bottom:0;
+     width: 100%;
+}
+.navs div{
+    height: 50px;
+     width: 49%;
+     float:left;
+     line-height:50px;
+     position:relative;
+}
+
+.navs div:nth-child(1){
+     border-right:1px solid #FFF;
+}
+.navs div span:nth-child(1){
+    display:block;
+     width: 17px;
+     height: 17px;
+     position:absolute;
+     left:50%;
+     margin-left:-34px;
+     top:50%;
+     margin-top:-8px;
+}
+.navs div span:nth-child(1) img{
+    display:block;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+.navs div span:nth-child(2){
+     position:absolute;
+     left:44%;
+     color:#fff;
+     font-size:15px;
+}
+
+/*分享遮罩*/
+.share_box{
+       display:none;
+       background: rgba(0,0,0,0.6); 
+       width: 100%;
+       top:0;
+       position:fixed;
+       left:0;
+       height: 100%;
+       z-index:99; 
+}
+.share_box .box{
+     position:absolute;
+     bottom:0;
+     height: 100px;
+     background-color: #fff;
+     width: 100%;
+}
+.share_box .box div{
+  width: 25%;
+  float:left;
+  height: 100px;
+}
+.share_box .box div span:nth-child(1){
+    display:block;
+     width: 60px;
+     height: 60px;
+     margin:0 auto;
+     margin-top:10px;
+}
+.share_box .box div span:nth-child(1) img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.share_box .box div span:nth-child(2){
+    display:block;
+    width: 100%;
+     text-align:center;
+     font-size:15px;
+     color:#333333;
+    
+}

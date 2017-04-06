@@ -1,0 +1,13 @@
+.cantainer{width: 100%;position:relative;}
+.content{width: 90%;margin:0 auto;margin-top:20px;}
+.content .times{height: 30px;border-bottom:1px solid #cccccc;border-top:1px solid #cccccc;color:red;font-size:16px;}
+.content .header{border-top:none;color:red;}
+.content .detail{margin-top:20px;width: 100%;height: 100px;display:flex;}
+.content .detail .imgs{width: 80px;height: 80px;float:left;flex-basis: 80px;}
+.content .detail .imgs img{width: 100%;height: 100%;background-size: cover;}
+.content .detail .right{float:left;height: 80px;padding-left:5px; flex-grow: 2;}
+.content .detail .right div{height: 26px;line-height:26px; }
+.content .introduce{margin-bottom:5px;font-size:18px;}
+
+
+ 

@@ -1,0 +1,420 @@
+body{
+    height: 0px;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.header {
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+}
+
+.header img {
+    width: 100%;
+    height:100%;
+    object-fit: fill;
+    object-position: auto;
+    /*background-size:cover;*/
+
+}
+
+.uls {
+    display: -webkit-flex;
+    display: flex;
+    height: 80px;
+    background-color: #4cb034;
+}
+
+.uls .left {
+    flex-grow: 1;
+    text-align: center;
+    height: 40px;
+    margin-top: 20px;
+    border-right: 2px solid #fff;
+}
+
+.uls .right {
+    flex-grow: 1;
+    text-align: center;
+    height: 40px;
+    margin-top: 20px;
+    border-right: 2px solid #fff;
+}
+
+.uls .center {
+    flex-grow: 1;
+    text-align: center;
+    height: 40px;
+    margin-top: 20px;
+    border-right: 2px solid #fff;
+}
+
+.uls .right {
+    border-right: none;
+}
+
+.uls .navs {
+    color: #fff;
+    font-size:14px;
+}
+
+.knowing {
+    width: 100%;
+    float: right;
+    margin-top: 20px;
+}
+
+.knowing span {
+    height: 35px;
+    display: block;
+    font-size: 20px;
+    padding-left: 12px;
+    font-weight: 500;
+    border-bottom: 1px solid #cccccc;
+}
+
+.knowing .content {
+    text-indent: 25px;
+    width: 92%;
+    margin: 0 auto;
+    font-size: 16px;
+    margin-top: 10px;
+    line-height: 28px;
+    color: #666666;
+}
+
+.rule {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.rule .rules {
+    display: block;
+    height: 35px;
+    padding-left: 12px;
+    font-weight: 500;
+    font-size: 20px;
+    border-bottom: 1px solid #cccccc;
+}
+
+.rule ul {
+    width: 92%;
+    margin: 0 auto;
+}
+
+.rule ul li {
+    height: 45px;
+    border-bottom: 1px dashed #cccccc;
+    line-height: 45px;
+    display: flex;
+    font-size: 15px;
+}
+
+@media (max-width: 330px) {
+    .rule ul li {
+        font-size: 13px;
+    }
+}
+
+.rule ul li span:nth-child(1) {
+    width: 25%;
+}
+
+.rule ul li span:nth-child(2) {
+    color: #666666;
+    width: 68%;
+}
+
+
+/*.rule ul li span:nth-child(3){
+    width: 5%;
+}*/
+
+.down {
+    background: url(../../img/con_icon_down@2x.png) no-repeat;
+    height: 10px;
+    width: 15px;
+    background-size: 100%;
+    margin-top: 18px;
+    margin-right: 3px;
+}
+
+.up {
+    background: url(../../img/fubao-up.png) no-repeat;
+    height: 10px;
+    width: 15px;
+    background-size: 100%;
+    margin-top: 18px;
+    margin-right: 3px;
+}
+
+.rule .box {
+    display: none;
+    background-color: #F0F0F0;
+}
+
+.rule .box span {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+} 
+
+.rule .box table {
+    width: 80%;
+    height: 100px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.rule .box .table {
+    width: 100%;
+    height: 180px;
+    padding-top: 10px;
+}
+
+.rule .box .table table th,
+td {
+    width: 50%;
+    height: 33px;
+    border: 1px solid #fff;
+    text-align: center;
+    line-height: 33px;
+}
+
+.rule .box .table span {
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+.safeguard {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.safeguard .spans {
+    height: 35px;
+    padding-left: 12px;
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    border-bottom: 1px solid #BFBFBF;
+}
+
+.safeguard_box {
+    width: 92%;
+    margin: 0 auto;
+    margin-top: 15px;
+    height: 50px;
+}
+
+.safeguard_box .dv,
+.dv2,
+.dv3,
+.dv4 {
+    width: 50%;
+    height: 50px;
+    float: left;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.safeguard_box div div:nth-child(2){
+    margin-top:5px;
+}
+.safeguard_box .dv div:nth-child(1) {
+    color: #4CB034;
+}
+
+.safeguard_box .dv2 div:nth-child(1) {
+    color: #4CB034;
+}
+
+.safeguard_box .dv3 div:nth-child(1) {
+    color: #4CB034;
+}
+
+.safeguard_box .dv4 div:nth-child(1) {
+    color: #4CB034;
+}
+
+.safeguard_box .dv div:nth-child(1) span:nth-child(1) {
+    width: 22px;
+    height: 22px;
+    background: url(../../img/con_icon_platform@2x.png) no-repeat;
+    background-size: cover;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.safeguard_box .dv2 div:nth-child(1) span:nth-child(1) {
+    width: 22px;
+    height: 22px;
+    background: url(../../img/con_icon_capital@2x.png) no-repeat;
+    background-size: cover;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.safeguard_box .dv3 div:nth-child(1) span:nth-child(1) {
+    width: 22px;
+    height: 22px;
+    background: url(../../img/con_icon_true@2x.png) no-repeat;
+    background-size: cover;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.safeguard_box .dv4 div:nth-child(1) span:nth-child(1) {
+    width: 22px;
+    height: 22px;
+    background: url(../../img/con_icon_flow@2x.png) no-repeat;
+    background-size: cover;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.join {
+    width: 100%;
+}
+
+.join .join_box {
+    text-align: center;
+    height: 35px;
+    font-size: 18px;
+    font-weight: 500;
+    border-bottom: 1px solid #BFBFBF;
+}
+
+.join .left {
+    float: left;
+    height: 70px;
+}
+
+.join .left .head {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    float: left;
+    background-color: red;
+}
+
+.join .left .name {
+    height: 70px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.join .left .name span:first-child {
+    color: #333333;
+    font-size: 17px;
+}
+
+.join .left .name span:last-child {
+    color: #666666;
+}
+
+.join .left .name span {
+    font-size: 16px;
+    height: 50%;
+    display: block;
+}
+
+.join .right {
+    float: right;
+    font-size: 18px;
+    height: 70px;
+    line-height: 70px;
+    margin-left: 10px;
+}
+
+.ftoor {
+    height: 70px;
+    background-color: #F0F0F0; 
+    width: 100%;
+    position: relative;
+    margin-top: 17px;
+    /*margin-bottom:50px;*/
+}
+
+.member {
+    height: 43px;
+    width: 100%;
+    background-color: #fff;
+    text-align: left;
+    line-height: 43px;
+    position: absolute;
+    top: 20%;
+    /*margin-top: -38px;*/
+}
+
+.member span {
+    margin-left: 15px;
+}
+
+.ftoor .huzhu {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: #4cb034;
+    font-size:18px;
+}
+
+.ftoor .huzhu span {
+    height: 35px;
+    line-height: 35px;
+}
+
+.btn {
+    width: 100%;
+    height: 50px;
+    background-color: #4CB034;
+    position: fixed;
+    left:0;
+    right:0;
+    bottom: 0;
+    text-align: center;
+    line-height: 50px;
+    z-index:1000;
+}
+
+.btn a {
+    display: block;
+    color: #fff;
+    font-size: 18px;
+}
+
+.member_btn {
+    font-size: 18px;
+    color:#666666;
+}
+
+
+/*企业滚动部分*/
+
+.marquee {
+    width: 92%;
+    margin: 0 auto;
+    height: 80px;
+    overflow: hidden;
+    position: relative;
+    font-size: 16px;
+    font-family:"方正黑体";
+}
+
+.marquee li {
+    height: 70px;
+    margin-top:10px; 
+
+}
+.marquee li .left .name span:nth-child(1){
+         font-weight:500;
+}
+.marquee li .right span:nth-child(1){
+     font-weight:500;
+}

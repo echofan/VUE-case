@@ -1,0 +1,29 @@
+article,aside,dialog,figure,footer,header,hgroup,nav,section{display:block;}
+body,p,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,form,fieldset,legend,label,input,select,textarea,button,th,td,menu,figure,svg,g{color:black;margin:0;padding:0;font-size:14px;}
+h1,h2,h3,h4,h5,h6,input,textarea,select,button,label{font-size:100%;vertical-align:middle;font-weight:400;}
+ul,dl,ol{list-style:none;}
+body{font-family:"方正黑体"}
+img,fieldset{border:0 none;outline:0 none;}
+img{display:inline-block;overflow:hidden;vertical-align:middle;}
+em{font-style:normal;}
+strong{font-weight:normal;}
+table{border-collapse:collapse;border-spacing:0;}
+
+a{outline:0 none;text-decoration:none;color:black;color:black;}
+
+
+/* 清除浮动 */
+.clearfix:after{content:".";clear:both;display:block;height:0;line-height:0;font-size:0;visibility:hidden;}
+.clearfix{zoom:1;}
+
+/*color*/
+.origin_header{
+    color: #FF9933;
+    font-size:17px;
+    font-weight:600;
+}
+.origin{
+    color: #FF9933;
+    font-size:16px;
+
+}

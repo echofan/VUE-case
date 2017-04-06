@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <meta content="email=no" name="format-detection">
+    <meta content="" name="pgv" />
+    <title>会员公约</title>
+    <link rel="stylesheet" type="text/css" href="../res/css/global.css">
+    <style>
+           .container{width: 100%;position:relative;}
+            ul{width: 100%;}
+            ul li{height: 50px;line-height:50px;border-bottom:1px solid #cccccc;padding-left:20px;font-size:18px;}
+            ul li span:nth-child(2){display:inline-block;float:right;margin-right:10px;}
+           .down{background:url(../res/img/con_icon_down@2x.png) no-repeat;height: 10px;width: 15px;background-size: 100%;margin-top:18px;margin-right:3px;}            
+           .up{background:url(../res/img/fubao-up.png) no-repeat; height: 10px;width: 15px;background-size: 100%;margin-top:18px;margin-right:3px;}
+           .box{display:none;background-color: #f0f0f0;}
+           .box span{display:block;height:30px;line-height:30px;}
+           .box .nav{width: 90%;margin:0 auto;font-size:17px;}
+    </style>
+</head>
+<body>
+        <div class="container">
+                <ul>
+                    <li><span>一、说明</span><span class="down"></span></li>
+                    <div class="box">
+                        <div class="nav">
+                            <span>1.李帆好帅李帆好帅</span>
+                            <span>2.李帆好帅李帆好帅</span>
+                            <span>3.李帆好帅李帆好帅</span>
+                            <span>4.李帆好帅李帆好帅</span>
+                        </div>       
+                    </div>
+                    <li><span>二、定义</span><span class="down"></span></li>
+                    <div class="box">
+                        <div class="nav">
+                            <span>1.李帆好帅李帆好帅</span>
+                            <span>2.李帆好帅李帆好帅</span>
+                            <span>3.李帆好帅李帆好帅</span>
+                            <span>4.李帆好帅李帆好帅</span>
+                        </div>       
+                    </div>
+                    <li><span>三、本公约的构成及效力</span><span class="down"></span></li>
+                     <div class="box">
+                        <div class="nav">
+                            <span>1.李帆好帅李帆好帅</span>
+                            <span>2.李帆好帅李帆好帅</span>
+                            <span>3.李帆好帅李帆好帅</span>
+                            <span>4.李帆好帅李帆好帅</span>
+                        </div>       
+                    </div>
+                    <li><span>四、权利义务</span><span class="down"></span></li>
+                     <div class="box">
+                        <div class="nav">
+                            <span>1.李帆好帅李帆好帅</span>
+                            <span>2.李帆好帅李帆好帅</span>
+                            <span>3.李帆好帅李帆好帅</span>
+                            <span>4.李帆好帅李帆好帅</span>
+                        </div>       
+                    </div>
+                    <li><span>五、资金管理</span><span class="down"></span></li>
+                     <div class="box">
+                        <div class="nav">
+                            <span>1.李帆好帅李帆好帅</span>
+                            <span>2.李帆好帅李帆好帅</span>
+                            <span>3.李帆好帅李帆好帅</span>
+                            <span>4.李帆好帅李帆好帅</span>
+                        </div>       
+                    </div>
+                    <li><span>六、公约中止和退出公约</span><span class="down"></span></li>
+                     <div class="box">
+                        <div class="nav">
+                            <span>1.李帆好帅李帆好帅</span>
+                            <span>2.李帆好帅李帆好帅</span>
+                            <span>3.李帆好帅李帆好帅</span>
+                            <span>4.李帆好帅李帆好帅</span>
+                        </div>       
+                    </div>
+                </ul>
+        </div>
+        <script src="../res/js/lib/jquery.min.js"></script>
+        <script>
+               $(function(){
+                   $('li').on('click',function(){
+                       $(this).children('.down').toggleClass("up"); 
+                       $(this).next('.box').toggle();
+                   });
+               }); 
+        </script>
+</body>
+</html>
