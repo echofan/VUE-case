@@ -1,0 +1,104 @@
+#head .share{
+	width:20%;
+	height:60%;
+	position:absolute;
+	right:5%;
+	top:20%;
+	border-radius:6px;
+	border:1px solid #D23262;
+	background:#F65B85;
+	color:#FFF;
+	font-size:18px;
+	outline: none;
+}
+
+#goods_time{
+	width:100%;
+	height:10%;
+	background:#333;
+	
+}
+#goods_time p{
+	height:100%;
+	color:#FFF;
+	font-size:18px;
+	display:flex;
+	align-items:center;	
+	justify-content: center;
+	
+}
+
+#goods_info_conn{
+	width:100%;
+	height:70%;
+	padding-top:10%;
+	background:#F7F7F7;
+}
+#goods_info_conn .goodsImg{
+	width:68%;
+	height:55%;
+	margin:0 auto 5%;
+	background:#FFF;
+	border:1px solid #ACACAC;
+}
+.goodsImg img{
+	width:100%;
+	height:100%;
+}
+.goods_name{
+	width:80%;
+	height:13%;
+	padding:0 7%;
+	margin:0 auto 5%;
+	background:url(../img/infro_bg.jpg) no-repeat;
+	background-size:100%;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	color:#FFF;
+	font-size:14px;
+	font-weight:bold;
+}
+.goods_name span{
+	margin-right:10px;
+}
+.goods_pri{
+	width:78%;
+	margin:0 auto;
+	color:#444;
+	font-size:14px;
+}
+
+#marketprice{
+	margin-right:10px;
+}
+
+#intro_tab{
+	width:100%;
+	height:10%;
+	position:fixed;
+	left:0;
+	bottom:0;
+	background:#5C5B61;
+}
+#intro_tab p{
+	width:33.33%;
+	height:100%;
+	display:flex;
+	float:left;
+	align-items: center;
+	justify-content: center;
+	box-sizing: border-box;
+	border-right:1px solid #282828;
+	color:#FFF;
+	font-size:20px;
+	border-top:5px solid #5C5B61;
+}
+
+
+#intro_tab p:nth-child(1){
+	border-top:5px solid #E43669;
+}
+#intro_tab p:nth-child(3){
+	border-right:none;
+}

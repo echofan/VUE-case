@@ -1,0 +1,48 @@
+
+#head button{
+	position:absolute;
+	width:10%;
+	height:41%;
+	left:3%;
+	top:34%;
+	background:none;
+	border:none;
+	outline:none;
+}
+
+#head button img{
+	width:100%;
+	height:100%;
+}
+
+#classify_list{
+	width:100%;
+	height:80%;
+	overflow:auto;
+}
+
+#classify_list ul{
+	width:100%;
+	height:100%;
+}
+#classify_list ul li{
+	height:11%;
+	border-bottom:1px solid #AAA;
+	border-top:1px solid #CBCBCB;
+	font-size:24px;
+	padding-top:16px;
+	padding-left:6.25%;
+	font-weight:bold;
+	position:relative;
+}
+
+
+#classify_list ul li span{
+	position:absolute;
+	right:6%;
+	top:30%;
+	color:#AAA;
+}
+#foot ul li:nth-child(2){
+	border-top:3px solid #F00;
+}

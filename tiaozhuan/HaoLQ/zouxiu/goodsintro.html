@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<title>商品介绍</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
+	<link rel="stylesheet" type="text/css" href="css/common.css" />
+	<link rel="stylesheet" type="text/css" href="css/goodsintro.css" />
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<!--<script type="text/javascript" src="js/common.js"></script>-->
+	<script>
+		$(function () {
+			$('#head button').click(function () {
+				open('index.html', '_self');
+			})
+		})
+	</script>
+</head>
+
+<body id="app">
+	<div id="head">
+		<h1>商品介绍</h1>
+		<button><img src="img/back.jpg" /></button>
+		<input type="button" class="share" value="分享" />
+	</div>
+	<div id="goods_time">
+		<p>
+			距离结束时间：
+			<span class="day">04</span>天
+			<span class="hour">12</span>时
+			<span class="minute">23</span>分
+			<span class="seconds">34</span>秒
+		</p>
+	</div>
+
+	<div id="goods_info_conn" v-for="item in datas">
+		<p class="goodsImg">
+			 <img src="{{item.goodsListImg}}" alt="">
+		</p>
+		<p class="goods_name">
+			<span class="goods_name_1">{{item.className}}</span>
+			<span class="goods_name_2">{{item.discount}}</span>
+		</p>
+		<p class="goods_pri">
+			<span id="marketprice" class="l">市场价：<s>{{item.buynumber}}</s></span>
+			<span id="dis" class="l">{{item.goodsID}}</span>
+			<span id="buynum" class="r">125人购买</span>
+		</p>
+	</div>
+	<div id="intro_tab">
+		<p>介绍</p>
+		<p>详情</p>
+		<p>实拍</p>
+	</div>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script src="lib/vue.min.js"></script>
+	<script src="lib/vue-resource.min.js"></script>
+	<script src="js/template-native.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+	<script src="js/class.js"></script>
+</body>
+
+</html>

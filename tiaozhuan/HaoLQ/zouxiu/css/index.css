@@ -1,0 +1,115 @@
+
+html,body{
+	overflow:auto;
+}
+#banner{
+	width:100%;
+	height:27.2%;
+	border-top:1px solid #636365;
+	border-bottom:1px solid #707070;
+	overflow:hidden;
+	position:relative;
+}
+#banner ul{
+	width:100%;
+	height:100%;
+	position:relative;
+}
+#banner ul li{
+	width:100%;
+	height:100%;
+	position:absolute;
+	left:0;
+	top:0;
+	
+}
+
+#banner ul li img{
+	width:100%;
+	height:100%;
+}
+
+#banner p{
+	position:absolute;	
+	bottom:5px;
+	left:43%;
+}
+#banner p span{
+	display:inline-block;
+	width:8px;
+	height:8px;
+	border-radius:4px;
+	margin-right:5px;
+}
+
+#goodsList{
+	width:100%;
+	height:100%;
+	-overflow:auto;
+}
+#goodsList ul{
+	width:100%;
+	height:100%;
+}
+#goodsList ul li{
+	height:20%;
+	padding:5% 0 5% 15px; 
+	border-top:1px solid #ABABAB;
+	border-bottom:1px solid #707070;
+}
+#goodsList ul li .goodsImg{
+	width:27.2%;
+	height:100%;
+	border:1px solid #C6C6C6;
+	background:#FFF;
+	margin-right:15px;
+	float:left;
+}
+
+#goodsList ul li .goodsImg img{
+	width:100%;
+	height:100%;
+}
+#goodsList ul li .goods_conn{
+	width:55%;
+	height:100%;
+	line-height:24px;
+	position:relative;
+	float:left;
+}
+#goodsList ul li .goodsID{
+	display:none;
+}
+.goods_conn .goodsName{
+	font-size:1.4rem;
+}
+.goods_conn .price span{
+	font-size:2rem;
+	color:#F62976;
+	margin-right:5px;
+}
+.goods_conn .price{
+	color:#DFDDDE;
+}
+.goods_conn .discount{
+	color:#282828;
+	font-size:1.6rem;
+}
+
+.goods_conn button{
+	width:40%;
+	height:27%;
+	position:absolute;
+	right:0;
+	bottom:10%;
+	border:none;
+	outline:none;
+}
+.goods_conn button img{
+	width:100%;
+	height:100%;
+}
+#foot ul li:nth-child(1){
+	border-top:3px solid #F00;
+}
+

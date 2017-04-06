@@ -1,0 +1,68 @@
+html,body{
+	overflow:hidden;
+}
+
+#head .enter{
+	width:20%;
+	height:60%;
+	position:absolute;
+	right:5%;
+	top:20%;
+	border-radius:6px;
+	border:1px solid #D23262;
+	background:#F65B85;
+	color:#FFF;
+	font-size:18px;
+	outline: none;
+}
+
+section{
+	width:100%;
+	height:86%;
+	padding-top:10%;
+	padding-left:4.7%;
+	background:#F7F7F7;
+}
+section p{
+	width:84.4%;
+	height:5%;
+	padding:3% 3.125%;
+	background:#FFF;
+	border-radius: 6px;
+	margin-bottom:3.5%;
+	font-size:20px;	
+}
+section p label{
+	color:#505050;
+	display:block;
+	float:left;
+}
+section p input{
+	display:block;
+	float:left;
+	height:100%;
+	width:50%;
+	border:none;
+	outline:none;
+	font-size:20px;	
+}
+section #sub{
+	width:90%;
+	height:10%;
+	background:#EE4878;
+	color:#FFF;
+	font-size:24px;
+	border:none;
+	border-radius: 10px;
+	position:absolute;
+	left:5%;
+	bottom:30%;
+}
+
+section .wrong{
+	border:1px solid #FD0E51;
+}
+
+#foot ul li:nth-child(4){
+	border-top:3px solid #F00;
+}

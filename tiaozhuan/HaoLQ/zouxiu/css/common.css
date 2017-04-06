@@ -1,0 +1,163 @@
+*{
+	margin:0;
+	padding:0;
+}
+html{
+	width:100%;
+	height:100%;
+	font-size:62.5%;
+}
+body{
+	font-size:10px;
+	width:100%;
+	height:100%;
+	-font-size:62.5%;
+	overflow:hidden;
+	background:#F7F7F7;
+}
+ul,li{
+	list-style:none;
+}
+img{
+	border:none;
+}
+a{
+	text-decoration:none;
+}
+.l{
+	float:left;
+}
+.r{
+	float:right;
+}
+
+#head{
+	width:100%;
+	height:10%;
+	border-top:1px solid #636363;
+	border-bottom:1px solid #282828;
+	background:#E4366B;
+	text-align:center;
+	color:#FFF;
+	position:relative;
+}
+#head h1{
+	padding-top:3%;
+	font-size:3rem;
+}
+
+#head button{
+	position:absolute;
+	width:10%;
+	height:41%;
+	left:3%;
+	top:34%;
+	background:none;
+	border:none;
+	outline:none;
+}
+
+#head button img{
+	width:100%;
+	height:100%;
+}
+
+#search{
+	width:100%;
+	height:10%;
+	border-top:1px solid #636363;
+	border-bottom:1px solid #282A29;
+	background:#53525A;
+	text-align:center;
+	position:relative;
+}
+#search input{
+	width:80%;
+	height:65%;
+	padding-left:12%;
+	border-radius: 20px;
+	margin-top:1.8%;
+	-font-size:2rem;
+	outline:none;
+	
+}
+#search img{
+	width:6%;
+	height:44%;
+	position:absolute;
+	left:8%;
+	top:26%;
+}
+
+#search ul{
+	display:none;
+	position:absolute;
+	left:5%;
+	top:85%;
+	width:80%;
+	padding:0 5%;
+	height:200px;
+	border:1px solid #CCC;
+	z-index:99;
+	background:#FFF;
+	overflow:auto;
+}
+#search ul li{
+	height:14%;
+	display:flex;
+	align-items: center;
+	border-bottom:1px solid #CCC;
+	white-space: nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+#search ul li span{
+	display:none;
+}
+
+.wait{
+	width:30px;
+	height:30px;
+	display:block;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-left:-15px;
+}
+
+#foot{
+	width:100%;
+	height:10%;
+	border-top:1px solid #646263;
+	background:#484850;
+	position:fixed;
+	bottom:0;
+}
+
+#foot ul{
+	width:100%;
+	height:100%;
+}
+#foot ul li{
+	width:20%;
+	height:100%;
+	text-align:center;
+	color:#FFF;
+	font-size:1.4rem;
+	float:left;
+	position:relative;
+	top:-1px;
+	border-top:3px solid #484850;
+}
+
+
+
+#foot ul li p{
+	width:45%;
+	height:45%;
+	margin:5px auto;
+}
+#foot ul li p img{
+	width:100%;
+	height:100%;
+}

@@ -1,0 +1,99 @@
+#head button{
+	position:absolute;
+	width:10%;
+	height:41%;
+	left:3%;
+	top:34%;
+	background:none;
+	border:none;
+	outline:none;
+}
+
+#head button img{
+	width:100%;
+	height:100%;
+}
+
+#myshow_conn{
+	height:90%;
+	width:100%;
+	background:#F7F7F7;
+}
+.per_conn{
+	height:20%;
+	padding:10% 0 10% 7%;
+	margin-bottom:10%;
+}
+.per_head{
+	width:30%;
+	height:100%;
+	float:left;
+	margin-right:7%;
+}
+.per_head img{
+	width:100%;
+	height:100%;
+}
+.per_info{
+	height:100%;
+	width:50%;
+	float:left;
+}
+.per_name{
+	font-size:20px;
+	padding:13% 0;
+}
+.per_sub{
+	height:32%;
+}
+.per_sub button{
+	width:43%;
+	height:100%;
+	background:#F14F7E;
+	border:none;
+	border-radius:10px;
+	color:#FFF;
+	font-size:14px;
+	margin-right:5px;	
+	outline:none;
+}
+.per_sub button a{
+	color:#FFF;
+}
+.info_list{
+	width:87%;
+	height:39%;
+	margin:0 auto;
+	border:1px solid #DEDEDE;
+	border-radius:10px;
+	background:#FFF;
+	overflow:hidden;
+}
+.info_list ul{
+	height:100%;
+}
+.info_list ul li{
+	height:25%;
+	display:flex;
+	align-items:center;
+	padding:0 5%;
+	font-size:20px;
+	border-bottom:1px solid #DEDEDE;
+	position:relative;
+}
+.info_list ul li a{
+	color:#000;
+	float:left;
+	display:block;
+}
+.info_list ul li span{
+	position:absolute;
+	right:5%;
+	top:30%;
+	color:#AAA;
+	font-size:24px;
+	
+}
+#foot ul li:nth-child(4){
+	border-top:3px solid #F00;
+}

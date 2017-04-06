@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>商品详情</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"/>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/goodsdetails.css"/>
+
+	</head>
+	<body id="app">
+		<div id="head">
+			<h1>商品详情</h1>
+			<button><img src="img/back.jpg" /></button>	
+			<input type="button" class="share" value="分享"/>
+		</div>
+		<div id="goods_details" v-for="item in datas">
+			<div class="details_img">
+				<img src="{{pho}}" alt="">
+			</div>
+			<div class="details_text">
+				<p>{{item.detail}}</p>
+
+			</div>
+		</div>
+		
+		<div id="intro_tab">
+			<p>介绍</p>
+			<p>详情</p>
+			<p>实拍</p>
+		</div>
+		
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script src="lib/vue.min.js"></script>
+	<script src="lib/vue-resource.min.js"></script>
+	<script src="js/template-native.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+	<script src="js/class.js"></script>
+			<script>
+			$(function(){
+				$('#head button').click(function(){
+					open('index.html','_self');
+				})
+			})
+		</script>
+	</body>
+</html>

@@ -1,0 +1,169 @@
+
+body{
+	overflow:auto;
+}
+#head .account{
+	width:20%;
+	height:60%;
+	position:absolute;
+	right:5%;
+	top:20%;
+	border-radius:6px;
+	border:1px solid #D23262;
+	background:#F65B85;
+	color:#FFF;
+	font-size:18px;
+	outline: none;
+}
+
+#search{
+	-display:none;
+	width:98%;
+	padding-left:2%;
+}
+#search p{
+	float:left;
+	height:100%;
+	display:flex;
+	align-items: center;
+	color:#FFF;
+	font-size:20px;
+	margin-right:10px;
+}
+#search .goodsPrice span{
+	color:#E6356B;
+}
+
+#mycar_list{
+	-display:none;
+	width:100%;
+	height:80%;
+	overflow:auto;
+	position:relative;
+}
+
+#mycar_list ul {
+	width:100%;
+	height:100%;
+}
+#mycar_list ul li{
+	height:23.5%;
+	border-bottom:1px solid #AAA;
+	padding:5% 0 5% 3%;
+	position:relative;
+}
+#mycar_list ul li .goodsImg{
+	float:left;
+	height:100%;
+	border:1px solid #BABABA;
+	margin-right:5%;
+}
+#mycar_list ul li .goodsImg img{
+	width:100%;
+	height:100%;
+}
+.goods_info{
+	height:100%;
+	width:55%;
+	float:left;
+}
+.goodsName{
+	height:46%;
+	width:100%;
+	padding-top:4%;
+}
+.goods_price{
+	height:25%;
+}
+.goodsNum{
+	height:25%;
+}
+.goods_price .red{
+	color:#E2356A;
+}
+
+#mycar_list ul li .goods_info p{
+	font-size:14px;
+}
+
+.goodsNum span{
+	display:block;
+	float:left;
+	display:flex;
+	align-items: center;
+	height:100%;
+}
+.goodsNum .numchange{
+	width:60%;
+	height:100%;
+}
+.goodsNum .reducenum,.goodsNum .addnum{
+	padding:0 6%;
+	height:100%;
+	background:#CCC;
+	border-radius:4px;
+	margin-right:5px;
+	color:#FFF;
+	font-size:30px;	
+	font-weight:bold;
+}
+.goodsNum .num{
+	padding:0 10%;
+	height:100%;
+	border:1px solid #CCC;
+	margin-right:5px;
+}
+#mycar_list ul li button{
+	width:5%;
+	height:13%;
+	position:absolute;
+	right:3%;
+	top:20%;
+	background:none;
+	border:none;
+}
+#mycar_list ul li button img{
+	width:100%;
+	height:100%;
+}
+.goodsID{
+	display:none;
+}
+
+#emptyCar{
+	overflow:hidden;
+	width:100%;
+	height:80%;
+	background:#F7F7F7;
+	padding-top:10%;
+}
+#emptyCar p{
+	width:50%;
+	margin:5% auto;
+	text-align:center;
+	font-size:20px;
+}
+.emptyImg{
+	width:40%;
+	height:35%;
+}
+.emptyImg img{
+	width:100%;
+	height:100%;
+}
+#emptyCar button{
+	display:block;
+	width:70%;
+	height:10%;
+	margin:10% auto;
+	background:#F14F7E;
+	border:none;
+	color:#FFF;
+	font-size:20px;
+	font-weight:bold;
+	border-radius: 10px;
+}
+
+#foot ul li:nth-child(3){
+	border-top:3px solid #F00;
+}

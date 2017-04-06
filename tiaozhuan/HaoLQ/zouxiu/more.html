@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>更多</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"/>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/more.css"/>
+		<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+		<script type="text/javascript" src="js/common.js"></script>
+		<script>
+			$(function(){
+				$('#sub').click(function(){
+					localStorage.removeItem('userID');
+					localStorage.removeItem('password');
+					open('enter.html','_self');
+				})
+			})
+		</script>
+		
+	</head>
+	<body>
+		<div id="head">
+			<h1>更多</h1>
+			<button><img src="img/back.jpg"  /></button>
+		</div>
+		
+		<div id="more_conn">
+			<div class="more_list more_list_1">
+				<ul>
+					<li><a href="">常见问题</a><span>></span></li>
+					<li><a href="">系统设置</a><span>></span></li>
+					<li><a href="">软件更新</a><span>></span></li>
+					<li><a href="">扫描二维码</a><span>></span></li>
+				</ul>
+			</div>
+			
+			<div class="more_list more_list_2">
+				<ul>
+					<li><a href="">我要提意见</a><span>></span></li>
+					<li><a href="">关于</a><span>></span></li>
+				</ul>
+			</div>
+			
+			<input type="button" id="sub" value="退出登录"/>
+		</div>
+		
+		
+		
+		<div id="foot">
+			<ul>
+				<li>
+					<p><img src="img/icon_index.jpg" /> </p>
+					<span>首页</span>
+				</li>
+				<li>
+					<p><img src="img/icon_2.jpg" /> </p>
+					<span>分类</span>
+				</li>
+				<li>
+					<p><img src="img/icon_3.jpg" /> </p>
+					<span>购物车</span>
+				</li>
+				<li>
+					<p><img src="img/icon_4.jpg" /> </p>
+					<span>我的秀</span>
+				</li>
+				<li>
+					<p><img src="img/icon_5.jpg" /> </p>
+					<span>更多</span>
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>
+

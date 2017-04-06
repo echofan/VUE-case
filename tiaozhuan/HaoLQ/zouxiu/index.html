@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<title></title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
+	<link rel="stylesheet" type="text/css" href="css/common.css" />
+	<link rel="stylesheet" type="text/css" href="css/index.css" />
+</head>
+
+<body id="app">
+	<div id="head">
+		<h1>走秀网</h1>
+	</div>
+	<div id="search">
+		<img src="img/search.jpg" />
+		<input type="text" placeholder="请输入搜索内容" />
+		<ul>
+		</ul>
+	</div>
+	<div id="banner">
+		<ul>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+		<p>
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+		</p>
+		<img class="wait" src="img/wait.gif" />
+	</div>
+	<!--<script id="tempId" type="text/template">
+			<ul>
+				<%for(var i=0;i<list.length;i++){%>
+				<li class="lis">
+					<span id="classID" style="display:none"><%=list[i].goodsID%></span>
+					<p class="goodsImg"><img src="<%=list[i].goodsListImg%>" alt=""></p>
+					<div class="goods_conn">
+						<p class="goodsName"><%=list[i].goodsName%></p>
+						<p class="price">
+							<span></span>
+							<span></span>
+						</p>
+					</div>
+				</li>
+					<%}%>	
+			</ul>				
+	</script>-->
+	<div id="goodsList">
+		<ul>
+			<li v-for="item in datas" class="lis">
+				<span id="classID">{{item.goodsID}}</span>
+				<p class="goodsImg"><img src="{{item.goodsListImg}}" alt=""></p>
+				<div class="goods_conn">
+					<p class="goodsName">{{item.goodsName}}</p>
+					<p class="price">
+						<span></span>
+						<span></span>
+					</p>
+				</div>
+			</li>
+		</ul>
+		<img class="wait" src="img/wait.gif" />
+	</div>
+	<div id="foot">
+		<ul>
+			<li>
+				<p><img src="img/icon_index.jpg" /> </p>
+				<span>首页</span>
+			</li>
+			<li>
+				<p><img src="img/icon_2.jpg" /> </p>
+				<span>分类</span>
+			</li>
+			<li>
+				<p><img src="img/icon_3.jpg" /> </p>
+				<span>购物车</span>
+			</li>
+			<li>
+				<p><img src="img/icon_4.jpg" /> </p>
+				<span>我的秀</span>
+			</li>
+			<li>
+				<p><img src="img/icon_5.jpg" /> </p>
+				<span>更多</span>
+			</li>
+		</ul>
+	</div>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script src="lib/vue.min.js"></script>
+	<script src="lib/vue-resource.min.js"></script>
+	<script src="js/template-native.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+	<!--<script type="text/javascript" src="js/class.js"></script>-->
+	<script>
+		// $.ajax({
+		// 	url:'http://datainfo.duapp.com/shopdata/getGoods.php', 
+		// 	dataType:'jsonp',
+		// 	jsonp:'callback',
+		// 	success:function(res){
+		// 		  console.log(res);
+		// 		  var lists=res;
+		// 		  console.log(lists);
+		// 		  var info={
+		// 			   list:lists,
+		// 		  }
+		// 		  var text=template("tempId",info);
+		// 		  document.querySelector("#goodsList").innerHTML=text;
+		// 	}
+		// })
+
+		
+	</script>
+</body>
+
+</html>

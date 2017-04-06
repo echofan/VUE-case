@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"/>
+		<style type="text/css">
+			html,body{
+				width:100%;
+				height:100;
+				background:#F8F3F7;
+			}
+			*{
+				margin:0;
+				padding:0;
+			}
+			h1{
+				width:100%;
+				height:300px;
+				padding-top:100px;
+			}
+			h1 img{
+				display:block;
+				width:40%;
+				margin:0 auto;
+			}
+			h1 p{
+				width:100%;
+				height:40px;
+				line-height:40px;
+				font-size:16px;
+				text-align:center;
+			}
+			.bg{
+				display:block;
+				width:100%;
+				position:fixed;
+				bottom:0;
+			}
+		</style>
+		<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				setTimeout(function(){open('lead.html','_self')},3000);
+			})
+		</script>
+	</head>
+	<body>
+		<h1>
+			<img src="img/logo.jpg" />
+			<p>秀出你的每一天</p>
+		</h1>
+		<img class="bg" src="img/welcome_bg.jpg" /> 
+	</body>
+</html>
